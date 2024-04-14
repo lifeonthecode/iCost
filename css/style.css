@@ -9,6 +9,13 @@
    list-style: none;
 }
 
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 
 
 
@@ -31,7 +38,7 @@
     font-size: 20px;
     color: white;
     text-transform: capitalize;
-    
+    font-weight: 500;
 }
 
 .header_title button{
@@ -76,51 +83,54 @@
 
 /* header setting style  */
 .header_setting_container {
-    padding: 20px 0px;
+    padding: 5px 0px;
     background-color: #424f60;
 }
 
 .setting_container {
     max-width: 1140px;
     width: 100%;
-    max-height: 70px;
-    height: 100%;
     margin-inline: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.setting_logo {
+    text-align: center;
+}
+
 .setting_logo h3 a {
     font-size: 30px;
     color: white;
+    font-weight: normal;
 }
 
 
 .setting_content {
     display: flex;
     align-items: center;
-    column-gap: 50px;
+    column-gap: 65px;
 }
 
 
 .setting_icon_lists {
     display: flex;
     align-items: center;
-    column-gap: 50px;
+    column-gap: 65px;
 }
+
 .setting_icon_lists li button {
-    font-size: 23px;
+    font-size: 18px;
     background-color: transparent;
     border: transparent;
     color: white;
     cursor: pointer;
-
 }
 
 
 .setting_content p{
-    font-size: 22px;
+    font-size: 16px;
     color: white;
     text-transform: capitalize;
 }
