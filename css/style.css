@@ -1,0 +1,253 @@
+
+/* browser style  */
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   outline: none;
+   text-decoration: none;
+   list-style: none;
+}
+
+
+
+
+/* common layout style  */
+
+.box_shadow {
+    box-shadow: 0px 0px 14px #c8c8c8;
+    margin-bottom: 26px;
+}
+
+.header_title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a394c;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.title {
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    
+}
+
+.header_title button{
+    color: #b6466d;
+    background-color: transparent;
+    border: transparent;
+    font-size: 22px;
+}
+
+.main_content_lists {
+    padding: 18px 15px 25px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.main_content_lists li {
+    padding: 0px 0px 10px 15px;
+    border-bottom: 1px solid;
+    margin-bottom: 7px;
+    position: relative;
+}
+.main_content_lists li::before {
+    position: absolute;
+    content: " ";
+    top: 25%;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background: black;
+}
+
+
+
+.main_content_lists li button{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: black;
+    border: transparent;
+    background-color: transparent;
+}
+
+
+/* header setting style  */
+.header_setting_container {
+    padding: 20px 0px;
+    background-color: #424f60;
+}
+
+.setting_container {
+    max-width: 1140px;
+    width: 100%;
+    max-height: 70px;
+    height: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.setting_logo h3 a {
+    font-size: 30px;
+    color: white;
+}
+
+
+.setting_content {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+
+.setting_icon_lists {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.setting_icon_lists li button {
+    font-size: 23px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.setting_content p{
+    font-size: 22px;
+    color: white;
+    text-transform: capitalize;
+}
+.setting_content p span{
+    color: #375dbc;
+}
+
+
+/* main section style  */
+.main_section {
+    display: grid;
+    grid-template-columns: 100px auto;
+    border-top: 1px solid white;
+    height: 100vh;
+}
+
+
+.main_right_side {
+    padding: 0px 0px;
+    background-color: #424f60;
+    
+}
+
+.main_right_side button {
+    font-size: 30px;
+    border: transparent;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main_right_side button.active{
+    background-color: #333c4b;
+}
+
+
+.main_header_part {
+    padding: 15px;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px 6px #c9c7c7;
+}
+
+.main_header_part h3 a {
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+/* marin right side style  */
+.main_content_part {
+    padding: 25px 25px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+
+
+.ordenes_box button {
+    color: #8c2d7f;
+}
+
+.informes button {
+    color: #c0a851;
+}
+
+.clientes button {
+    color: #2f90b8;
+}
+
+.proveedor button {
+    color: #fff;
+}
+
+.ventas h3 {
+    text-transform: uppercase;
+}
+.ventas button {
+    color: #c0a851;
+}
+
+
+.reciente {
+    padding: 15px;
+    background-color: #444f51;
+    border-radius: 5px;
+    /* height: 100vh; */
+    height: 100%;
+}
+
+.reciente_header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.reciente_header::after {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0px;
+    width: 85%;
+    height: 1px;
+    background-color: white;
+}
+
+
+.reciente_header p {
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.reciente_header button {
+    font-size: 23px;
+    color: white;
+    border: transparent;
+    background-color: transparent;
+}
+
+
+
